@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+members = ["app","mod-calendar", "mod-career", "mod-core", "mod-finance", "mod-learning", "mod-nutrition","mod-projects"]
+
+[workspace.dependencies]
+crossterm = "0.29"
+ratatui = "0.30.2"
+
+chrono = { version = "0.4.45", features = ["now", "serde"] }
