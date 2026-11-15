@@ -1,3 +1,7 @@
 [workspace]
 resolver = "2"
-members = ["crates/app", "crates/libs/career", "crates/libs/events", "crates/libs/feed", "crates/libs/finance", "crates/libs/learning", "crates/libs/nutrition", "crates/libs/primitives", "crates/libs/projects","crates/ui"]
+members = ["crates/app", "crates/libs/career", "crates/libs/events", "crates/libs/feed", "crates/libs/finance", "crates/libs/learning", "crates/libs/nutrition", "crates/libs/primitives", "crates/libs/projects", "crates/libs/storage", "crates/libs/user","crates/ui"]
+
+[workspace.dependencies]
+chrono = { version = "0.4.45", features = ["serde"] }
+chrono-tz = { version = "0.10.4" }
