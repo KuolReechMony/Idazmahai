@@ -1,3 +1,3 @@
 [workspace]
 resolver = "2"
-members = []
+members = ["crates/app", "crates/libs/career", "crates/libs/events", "crates/libs/feed", "crates/libs/finance", "crates/libs/learning", "crates/libs/nutrition", "crates/libs/primitives", "crates/libs/projects","crates/ui"]
