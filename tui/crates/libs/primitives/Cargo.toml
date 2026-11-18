@@ -6,3 +6,4 @@ edition = "2024"
 [dependencies]
 chrono = { workspace = true, features = ["serde"] }
 chrono-tz = { workspace = true }
+thiserror = { workspace = true }
