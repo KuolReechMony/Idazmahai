@@ -4,3 +4,6 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+primitives = { path = "../primitives/" }
+url = { workspace = true }
+rust_decimal = { version = "1.43.0" }
