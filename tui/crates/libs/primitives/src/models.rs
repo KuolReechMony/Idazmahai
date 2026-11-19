@@ -3,6 +3,14 @@ use chrono_tz::Tz;
 
 use crate::errors::EntityError;
 
+/// Simple type for Location
+/// Should allow to utilize previously entered locations for ease of tracking
+#[derive(Debug)]
+pub struct Location {
+    title: NonEmptyString,
+    address: NonEmptyString,
+}
+
 /// Simple abstraction for non empty string types
 #[derive(Debug)]
 pub struct NonEmptyString {
