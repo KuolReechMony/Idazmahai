@@ -7,3 +7,5 @@ chrono = { version = "0.4.45", features = ["serde"] }
 chrono-tz = { version = "0.10.4" }
 url = { version = "2.5.8" }
 thiserror = { version = "2.0.21" }
+rrule = { version = "0.14.0" }
+sqlx = { version = "0.9.0" }
