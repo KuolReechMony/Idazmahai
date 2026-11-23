@@ -1,0 +1,6 @@
+[workspace]
+resolver = "2"
+members = ["application", "crates/core"]
+
+[workspace.dependencies]
+jiff = { version = "1.0.2" }
