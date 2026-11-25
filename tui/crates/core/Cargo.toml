@@ -1,8 +1,0 @@
-[package]
-name = "core"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
-sqlx  = { workspace = true }
-thiserror = { version = "2.0.21" }
